@@ -1,0 +1,34 @@
+       body {
+            font-family: Arial, sans-serif;
+            margin: autu;
+            align-items: center;
+            box-sizing: border-box;
+            
+        }
+        #container {
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        .partition {
+            position: absolute;
+            border: 2px solid black;
+            overflow: hidden;
+        }
+        .controls {
+            position: absolute;
+            display: flex;
+            gap: 5px;
+            background: rgba(193, 184, 184, 0.8);
+            border-radius: 5px;
+            width: 100%;
+            justify-content: center;
+        }
+        button {
+            cursor: pointer;
+            padding: 15px;
+            margin: 20px;
+        }
+   
